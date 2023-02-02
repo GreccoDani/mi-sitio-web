@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="shortcut icon" href="./iconos/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/036ece9be6.js" crossorigin="anonymous"></script>
+    <title>Grecco</title>
+   
+</head>
+
+<body>
+    <header>
+        
+        <div class="container">
+            <div class="contain-logo"><a class="indLogo" href="index.html">
+                <h2>DG <span>Developer</span></h2>
+                </a><img class="btn activar" id="menuHam" src="./iconos/menus.png" alt="Menu hamburguesa">
+            </div>
+
+            <div class="contain-nav">
+                <nav class="listMenu ">
+                    <ul>
+                        <li><a class="inicio" href="index.html">Inicio</a></li>
+                        <li><a class="mi" href="#AboutMe">Sobre mí</a></li>
+                        <li><a class="hab" href="#skill">Habilidades</a></li>
+                        <li><a class="ser" href="#service">Servicios</a></li>
+                        <li><a class="por" href="#porfolio">Porfolio</a></li>
+                        <li><a class="con" href="#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+          
+        </div>
+      
+    <div class="sobre_mí">
+
+        <div class="contenedor-switch">
+            <label class="switch">
+                <input type="checkbox" id="slider" checked>
+                <span class="slider"></span>
+                <span class="slider2"></span>
+            </label>
+        </div>
+
+        <div class="contenedor-row">
+
+            <div class="quienSoy">
+                <div class="txt-presentacion">
+                    <h1>Hola! Soy Daniel Grecco</h1>
+                    <p> Diseñador y Desarrollador Web </p>
+                </div>
+                <div class="botones">
+ 
+              
+                <div class="curriculum">
+                      <a href="./Curriculum/CV-Daniel-Grecco.pdf" 
+                      type="btn" download="Curriculum">Descargar CV</a>
+                   </div> 
+                </div>
+            </div> 
+ 
+            <div class="fotoYdescripcion">
+                 <div class="img-principal">
+                         <picture>
+                             <source  srcset="img/foto-grande.png" media="(min-width: 768px)">
+                             <source  srcset="img/foto-mediana.png" media="(min-width: 580px )">
+                             <img src="./img/foto-portfolio-chica.png">
+                         </picture>
+                 </div>
+             </div>
+        </div>
+                 
+    </div>
+    
+    </header>
+    
+    <section class="AboutMe">
+        <div>
+
+            <h2 id="AboutMe" class="subtitulo">Sobre mí</h2>
+        </div>
+<div class="contAboutMe">
+    <div class="img-secundaria">
+        <picture>
+            <source  srcset="img/perfil-3.jpg" media="(min-width: 1020px)">
+            <source  srcset="img/perfil-2.jpg" media="(min-width: 601px )">
+            <img src="./img/perfil-1.jpg">
+        </picture>
+    </div>
+
+    <div class="contDescripcion">
+        <p class="descripcion"> 
+            Me encanta la programación y la tecnología, es por eso que me adentré en el mundo del desarrollo
+            <span class="front">Front-end</span> el cual me permitió descubrir lo que me apasionaba en la vida.
+
+            
+        </p>
+        <p class="descripcion">
+            Soy una persona que está en constante crecimiento y adquiriendo nuevos conocimientos para seguir perfeccionándome día a día. 
+            Te invito a que me conozcas y veas por qué soy el indicado para que trabajemos juntos.
+        </p>    
+   </div>
+</div>
+      
+    </section>
+    <section id="skill" > 
+
+        <h2 class="subtitulo">Habilidades</h2>
+        <div class="habilidades">
+            <div class="herramientas">
+                <img src="./iconos/html-5.png" alt="Html">
+                <p>Html 5</p>
+            </div>
+            <div class="herramientas">
+                <img src="./iconos/css-3.png" alt="Css">
+                <p>Css 3</p>
+            </div>
+            <div class="herramientas">
+                <img src="./iconos/js.png" alt="javascript">
+                <p>Javascript</p>
+            </div>
+            <div class="herramientas">
+                <img src="./iconos/bootstrap.png" alt="bootstrap">
+                <p>Bootstrap</p>
+            </div>
+            <div class="herramientas">
+                <img src="./iconos/wordpress.png" alt="wordpress">
+                <p>Wordpress</p>
+            </div>
+            <div class="herramientas">
+                <img src="./iconos/illustrator.png" alt="illustrator">
+                <p>Illustrator</p>
+            </div>
+            <div class="herramientas">
+                <img src="./iconos/photoshop.png" alt="photoshop">
+                <p>Photoshop</p>
+            </div>
+            <div class="herramientas">
+                <img src="./iconos/github-black.png" alt="github">
+                <p>Github</p>
+            </div>
+        </div>
+    </section>
+
+<section class="Servicios" id="service">
+    <h2>Servicios</h2>
+<div class="tarjetas">
+
+    <div class="card">
+        <div class="contI">
+            <i class="fa-solid fa-palette"></i>
+        </div>
+        <div>
+            <h3>Diseño Web</h3>
+            <p class="txt-card"> 
+                Diseño web atractivo con una interfaz
+                intuitiva que permita ofrecer una
+                experiencia agradable al los clientes.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="contI">
+            <i class="fa-solid fa-mobile-screen"></i>
+        </div>
+        <div>
+            <h3>Diseño Responsivo</h3>
+            <p class="txt-card">Su sitio se mostrará correctamente en
+                cualquier dispositivo, incluidas
+                computadoras de escritorio, tabletas y
+                teléfonos móviles.
+            </p>
+        </div>
+    
+    </div>
+
+    <div class="card">   
+        <div class="contI">
+            <i class="fa-solid fa-code"></i>
+        </div>
+        <div>
+            <h3>Desarrollo</h3>
+        <p class="txt-card">Conozco la importancia del diseño web y
+            puedo ayudarlo a crear un sitio web que le
+            encantará.
+        </p>
+        </div>
+    </div> 
+</div>
+</section>
+<section id="porfolio">
+    <h2>Porfolio</h2>
+    <div class="contenedor-webs">
+        <div class="web">
+            <div class="contenedor-img">
+             <a href="https://dwt3ah.dwdavinci.com.ar/theoffice/"> 
+                 <img src="./img/web-wordpress.png" alt="Pagina de wordpress">
+            </a>
+            </div>
+            <div class="contenedor-descripcion">
+                <p>E-commerce realizado en Wordpress, 
+                   adaptado a diferentes dispositivos con una interfaz agradable
+                   y un diseño elegante.
+                </p>
+            <a href="https://dwt3ah.dwdavinci.com.ar/theoffice/"> Ver sitio </a>
+            </.div>
+        </div>
+    </div>
+ 
+     
+</section>
+
+<section>
+    <footer id="contact">
+        
+        <div class="redes">
+          
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/daniel-grecco-378b22247/">
+                    <p>Linkedin</p>
+                  </a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/GreccoDani">
+                    <p>Github</p>
+                  </a>
+            </div>
+        </div>
+        <div class="contenedor-logo">
+ 
+        </div>
+        
+    </footer>
+</section>
+
+   <script src="./js/dark-mode.js"  defer></script>
+    <script src="./js/menu.js"></script>
+    
+</body>
+</html>
